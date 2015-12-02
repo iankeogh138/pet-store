@@ -36,7 +36,7 @@ a:hover {
 	background-image: url(../img/hero_1024.jpg);
 	background-size: cover;
 	background-position: center;
-	height: 450px;
+	: 450px;
 }
 
 .jumbotron h2 {
