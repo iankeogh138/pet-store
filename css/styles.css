@@ -36,12 +36,13 @@ a:hover {
 	background-image: url(../img/hero_1024.jpg);
 	background-size: cover;
 	background-position: center;
-	: 450px;
+	height: 450px;
 }
 
 .jumbotron h2 {
 	font-family: 'Open Sans';
 	font-weight: 300;
+	text-transform: uppercase;
 	color: #FFF;
 	}
 }
@@ -81,6 +82,8 @@ footer a {
 .content-info {
 	padding-top: 15px;
 	padding-left: 40px;
+	border-right: ;
+	border-left: ;
 
 }
 
@@ -91,11 +94,23 @@ footer a {
 footer .fine-print {
 	margin-top: 10px;
 	margin-bottom: 15px;
-	color: rgb(50, 50, 50);
+	color: #505050;
 }
 
 /*end of footer*/
 
+/*media queries*/
+
+@media (max-width: 767px) {
+	.cent {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.social {
+		text-align: center;
+		font-size: 45px;
+	}
 
 
 
